@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FPL Assistant</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>FPL Assistant</h1>
+    </header>
+    <div class="tabs">
+        <button class="tab-button" onclick="openTab('teams-tab')">Teams/Players</button>
+        <button class="tab-button" onclick="openTab('fixtures-tab')">Fixtures</button>
+        <button class="tab-button" onclick="openTab('recommended-tab')">Recommended Players</button>
+    </div>
+    <div id="teams-tab" class="tab-content">
+        <section id="teams-section">
+            <h2>Teams</h2>
+            <ul id="teamsList"></ul>
+        </section>
+        <section id="players-section">
+            <h2>Players</h2>
+            <div id="playersContainer"></div>
+        </section>
+    </div>
+    <div id="fixtures-tab" class="tab-content" style="display:none;">
+        <section id="fixtures-section">
+            <h2>Fixtures</h2>
+            <ul id="fixturesList"></ul>
+        </section>
+    </div>
+    <div id="recommended-tab" class="tab-content" style="display:none;">
+        <section id="recommended-section">
+            <h2>Recommended Players</h2>
+            <ul id="recommendedList"></ul>
+        </section>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

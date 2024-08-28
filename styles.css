@@ -1,0 +1,228 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav {
+    margin-top: 1em;
+    text-align: center;
+}
+
+.tabs {
+    text-align: center;
+    margin-bottom: 1em;
+    cursor: pointer;
+}
+
+.tab-button {
+    padding: 0.5em 1em;
+    margin: 0 0.5em;
+    background-color: #06a12d;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.tab.active {
+    background-color: #ff9e30;
+}
+
+.tab-button:hover {
+    background-color: #555;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content:first-child {
+    display: block;
+}
+
+#teamsList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 0;
+    justify-content: center;
+}
+
+#teamsList li {
+    background-color: #f7f7f7;
+    padding: 0.5em;
+    margin: 5px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#teamsList li:hover {
+    background-color: #e0e0e0;
+}
+
+#playersContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#dream-team-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.player {
+    width: 110px;
+    text-align: center;
+}
+
+.player-details {
+    margin-left: 10px;
+}
+
+.player-details span {
+    display: block;
+}
+
+#fixturesList li {
+    margin-bottom: 1em;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+#fixturesList li strong {
+    display: inline-block;
+    width: 150px;
+    margin-right: 10px;
+}
+
+#fixturesList span {
+    margin-right: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+#recommended-section {
+    padding: 20px;
+}
+
+#recommendedList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#recommendedList li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+#recommendedList li:hover {
+    background-color: #f0f0f0;
+}
+
+.formation-grid {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* .player {
+    width: 20%;
+    margin: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .player img {
+    width: 50%;
+    height: 50%;
+    margin: 10px;
+  } */
+
+
+/* .tab {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    margin: 0 0.5em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.tab.active {
+    background-color: #ff8800;
+}
+
+main {
+    padding: 1em;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: flex;
+    justify-content: space-between;
+}
+
+#teams-container, #players-container {
+    width: 45%;
+}
+
+#playersList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+li {
+    list-style: none;
+    padding: 0.5em;
+    border-bottom: 1px solid #ccc;
+}
+
+li:hover {
+    background-color: #f0f0f0;
+}
+
+img {
+    width: 50px;
+    height: auto;
+    display: block;
+}
+
+.fixture-easy {
+    color: green;
+}
+
+.fixture-medium {
+    color: orange;
+}
+
+.fixture-hard {
+    color: red;
+} */
+
